@@ -1,0 +1,302 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Booking hotel with sauna facility and 5 star rating",
+    "line": 1,
+    "id": "booking-hotel-with-sauna-facility-and-5-star-rating",
+    "tags": [],
+    "uri": "features/bookingFilters.feature",
+    "elements": [
+      {
+        "id": "booking-hotel-with-sauna-facility-and-5-star-rating;customer-finding-hotels-with-sauna-and-5-star-rating",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Customer finding hotels with sauna and 5 star rating",
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user on booking.com website",
+            "match": {
+              "location": "step_definitions/bookingsteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user enters location as Limerick",
+            "match": {
+              "location": "step_definitions/bookingsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 519000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user selects checkin date",
+            "match": {
+              "location": "step_definitions/bookingsteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6285000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user enters day after three months",
+            "match": {
+              "location": "step_definitions/bookingsteps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3274000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user selects checkout date",
+            "match": {
+              "location": "step_definitions/bookingsteps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "when user clicks on search",
+            "match": {
+              "location": "step_definitions/bookingsteps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5377000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user should be able to see result listings",
+            "match": {
+              "location": "step_definitions/bookingsteps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user selects 5 star from side",
+            "match": {
+              "location": "step_definitions/bookingsteps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4130000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user should be able to see The Savoy Hotel in the result listings",
+            "match": {
+              "location": "step_definitions/bookingsteps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "user should not be able to see George Limerick Hotel in the result listings",
+            "match": {
+              "location": "step_definitions/bookingsteps.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "booking-hotel-with-sauna-facility-and-5-star-rating;customer-finding-hotels-with-sauna-and-5-star-rating",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Customer finding hotels with sauna and 5 star rating",
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user on booking.com website",
+            "match": {
+              "location": "step_definitions/bookingsteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user enters location as Limerick",
+            "match": {
+              "location": "step_definitions/bookingsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 500000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user selects checkin date",
+            "match": {
+              "location": "step_definitions/bookingsteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6247000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user enters day after three months",
+            "match": {
+              "location": "step_definitions/bookingsteps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3282000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user selects checkout date",
+            "match": {
+              "location": "step_definitions/bookingsteps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3088000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "when user clicks on search",
+            "match": {
+              "location": "step_definitions/bookingsteps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4348000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user should be able to see result listings",
+            "match": {
+              "location": "step_definitions/bookingsteps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user selects Sauna from side",
+            "match": {
+              "location": "step_definitions/bookingsteps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9264000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user should be able to see Limerick Strand Hotel in the result listings",
+            "match": {
+              "location": "step_definitions/bookingsteps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "user should not be able to see George Limerick Hotel in the result listings",
+            "match": {
+              "location": "step_definitions/bookingsteps.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
