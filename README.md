@@ -23,9 +23,8 @@ We need to just add .feature file under features folder and write are BDD (scrip
 for every corresponding feature create a .js file and code actions there.
 
 
-Note java: The same can also be  easily achieved by simple JAVA / Testng and cucumber
+
+Note java: The same can also be  easily achieved by simple JAVA / Maven/Testng and cucumber
 creating page object model and pagefactory (creating framework with driver manager class,seperate utility ,identifiers,property.confg and running with annotations.
 Also using date class and date format class in code to give tester options to test any date and pick it up with string.
-
-
 
